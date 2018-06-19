@@ -66,7 +66,7 @@ header{
     opacity: 0;
     position: absolute;
     width: 100%;
-    background-color: rgba(15, 8, 8, 0.39);
+    background-color: rgba(0, 0, 0, 0.384);
     z-index: 1000;
 }
 
@@ -79,7 +79,7 @@ header{
 
 header h2{
     font-family: "Quicksand",sans-serif;
-    color: #555;
+    color: #fff;
     font-size: 25px;
     font-weight: 400;
 
@@ -88,10 +88,12 @@ header h2{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    
 }
 .nav-menu{
     display: flex;
     margin-right: -15px;
+    
 }
 
 header .nav-menu li {
@@ -119,7 +121,7 @@ section{
     color:  rgb(232, 236, 238);
     text-align: center;
     min-height: 100vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.692));
+    background: linear-gradient( #0178b6, rgba(218, 19, 19, 0.692));
 }
 .hero img {
    
